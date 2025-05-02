@@ -14,7 +14,7 @@ Welcome to my repository! 👋 This repo contains the **Class Test I** from the 
 
 ## 📄 Class Test Questions (Section-4)
 
-![Class Test Image](./path-to-your-image.jpg) <!-- Replace with actual image path -->
+![Class Test Image](CSE103.jpg) <!-- Replace with actual image path -->
 
 ### 🧮 Question 1: Mathematical Formula
 
