@@ -1,137 +1,90 @@
-# CSE103 Structured Programming - Class Test I  
-**East West University**  
-**Spring 2025 | Section-4**  
-**Instructor: Dr. Maheen Islam**  
-**Total Marks: 25 | Time: 45 Minutes**
+# 🧠 CSE 103 Structured Programming – Class Test 📘
+
+Welcome to my repository! 👋 This repo contains the **Class Test I** from the course:
+
+> **Course:** CSE 103 Structured Programming  
+> **Semester:** Spring 2025  
+> **Department:** Computer Science and Engineering  
+> **University:** East West University 🏫  
+> **Instructor:** Dr. Maheen Islam 👩‍🏫  
+> **Full Marks:** 25  
+> **Duration:** 45 Minutes ⏱️
 
 ---
 
-## Overview  
-This repository contains the breakdown and pseudo-code solutions for the **CSE103 Structured Programming Class Test I**. Each question is designed to test understanding of basic programming concepts in C, such as arithmetic operations, conditionals, and user input/output.
+## 📄 Class Test Questions (Section-4)
+
+![Class Test Image](./path-to-your-image.jpg) <!-- Replace with actual image path -->
+
+### 🧮 Question 1: Mathematical Formula
+
+✏️ Write a C program that computes the following formula:
+
+\[
+\text{result} = \frac{n^3 + 2n}{(n + 1) + \sqrt{n}}
+\]
+
+> 🔢 Print the result with **two decimal places**.
 
 ---
 
-## Questions & Pseudo-code Solutions
+### 💼 Question 2: Salary Increment Program
 
-### 1. **Math Formula Evaluation** 🧮
+👨‍💼 A company offers salary increments based on performance scores:
 
-**Problem:**  
-Write a C program that takes an integer `n` as input and computes the following formula:  
+- 🔥 90 or above: 20% increment  
+- 👍 80–89: 15% increment  
+- 🙂 70–79: 10% increment  
+- ❌ Below 70: No increment  
 
-```
-result = (n^3 + 2n) / (n + 1) + sqrt(n)
-```
-
-**Expected Output:**  
-Print the result with **two decimal places**.
-
-**Pseudo-code:**
-```
-Input: Integer n
-Calculate numerator = n^3 + 2 * n
-Calculate denominator = n + 1
-Calculate result = (numerator / denominator) + sqrt(n)
-Print result with 2 decimal places
-```
+> 💻 Write a program that:
+> - Takes **current salary** and **score**
+> - Calculates the **new salary**
 
 ---
 
-### 2. **Employee Salary Increment Based on Performance** 💼
+### 🤔 Question 3: Predict Output
 
-**Problem:**  
-Calculate and print the new salary of an employee based on their performance score.
+📜 Given the code segment:
 
-- Score ≥ 90 → 20% increment  
-- 80 ≤ Score < 90 → 15% increment  
-- 70 ≤ Score < 80 → 10% increment  
-- Score < 70 → No increment
-
-**Pseudo-code:**
-```
-Input: Current salary, Performance score
-If score ≥ 90:
-    salary += 0.20 * salary
-Else if score ≥ 80:
-    salary += 0.15 * salary
-Else if score ≥ 70:
-    salary += 0.10 * salary
-Else:
-    salary remains same
-Output: New salary
-```
-
----
-
-### 3. **Evaluate Output of Given C Expression** 🧠
-
-**Problem:**  
-Given:
 ```c
 int a = 12, b = 5;
 float x = 3.5, y;
 y = pow(a, b / 2) + (x * (b / 2)) - sqrt(a + b);
 printf("%.2f", y);
+
 ```
+🧠 What is the output? Show your calculation if needed!
 
-**Concepts Tested:** Type casting, integer division, precedence, math functions
+###  🛠️ Question 4: Debug the Code
+Find and correct the errors in the following C program:
 
-**Pseudo-code:**
+```c
+void Main()
+{
+    Int x, y, z;
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &x, y, z);
+    if(x > y & y > z)
+        printf("Largest number is %d", X);
+    else if(y > x & y > z)
+        printf("Largest number is %d", y);
+    Else
+        printf("Largest number is %d", z);
+}
+
 ```
-a = 12, b = 5
-x = 3.5
-Evaluate y:
-  = pow(12, 2) + (3.5 * 2) - sqrt(17)
-  = 144 + 7 - 4.123
-  ≈ 146.88
-Output: y rounded to 2 decimal places
-```
+🧑‍🔧 Spot the syntax and logic errors and fix them accordingly.
 
----
+## 5️⃣ **Question 5: Time Conversion**  
+⏱️ **Problem Statement:**  
+Write a C program to convert years, months, and days into total hours using:
+- 1 year = 365 days (ignoring leap years)
+- 1 month = 30 days
+- 1 day = 24 hours
 
-### 4. **Find and Correct Errors in C Code** ⚠️
+## ⭐ Star This Repository!
+If you found this helpful, please consider starring the repo to show your support!
 
-**Problem:**  
-Identify syntax and logic errors in the provided C snippet.
-
-**Issues Found:**
-- `Int` should be `int`
-- Missing semicolon after `else`
-- Incorrect use of `X` instead of `x`
-- Incorrect casing and bracket structure
-
-**Corrected Pseudo-code:**
-```
-Input: x, y, z
-If x > y and x > z:
-    print x is largest
-Else if y > x and y > z:
-    print y is largest
-Else:
-    print z is largest
-```
-
----
-
-### 5. **Convert Years, Months, and Days to Hours** ⏰
-
-**Problem:**  
-Given years, months, and days, convert the total time to hours.
-
-**Assumptions:**  
-- 1 year = 365 days  
-- 1 month = 30 days  
-- 1 day = 24 hours  
-
-**Pseudo-code:**
-```
-Input: years, months, days
-total_days = years * 365 + months * 30 + days
-total_hours = total_days * 24
-Output: total_hours
-```
-
----
-
-## License  
-This repository is intended for academic and educational use.
+## Happy coding! 💻✨
 
