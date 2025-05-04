@@ -86,5 +86,5 @@ Write a C program to convert years, months, and days into total hours using:
 ## ⭐ Star This Repository!
 If you found this helpful, please consider starring the repo to show your support!
 
-## Happy coding! 💻✨
+## Happy Coding! 💻✨
 
